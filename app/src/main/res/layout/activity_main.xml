@@ -10,7 +10,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="#212121">
 
             <ScrollView
                 android:layout_width="match_parent"
@@ -31,17 +32,18 @@
 
                         <TextView
                             android:id="@+id/textView15"
-                            android:layout_width="220dp"
+                            android:layout_width="225dp"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
                             android:layout_weight="1"
                             android:padding="10dp"
                             android:text="22\nMar"
+                            android:textColor="#E0E0E0"
                             android:textColorLink="@color/colorAccent"
                             android:textSize="20sp" />
 
                         <LinearLayout
-                            android:layout_width="300dp"
+                            android:layout_width="290dp"
                             android:layout_height="wrap_content"
                             android:clickable="true"
                             android:orientation="vertical">
@@ -52,8 +54,6 @@
                                 android:layout_marginLeft="0dp"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginRight="10dp"
-                                android:cardCornerRadius="40dp"
-                                android:cardElevation="10dp"
                                 android:foreground="?android:selectableItemBackground"
                                 android:paddingTop="10dp"
                                 app:cardBackgroundColor="@color/colorPrimary">
@@ -88,7 +88,7 @@
                                             android:layout_height="54dp"
                                             android:paddingTop="10sp"
                                             android:text="Registration"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="24sp"
                                             android:textStyle="bold" />
 
@@ -97,7 +97,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
                                             android:text="8:00 AM - 10:00 AM"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="18sp" />
                                     </LinearLayout>
                                 </LinearLayout>
@@ -141,8 +141,8 @@
                                             android:layout_height="54dp"
                                             android:paddingTop="10sp"
                                             android:text="Inaugral Ceremony"
-                                            android:textColor="@color/cardview_light_background"
-                                            android:textSize="24sp"
+                                            android:textColor="#E0E0E0"
+                                            android:textSize="20sp"
                                             android:textStyle="bold" />
 
                                         <TextView
@@ -150,7 +150,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
                                             android:text="10:00 AM - 11:00 AM"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="18sp" />
                                     </LinearLayout>
                                 </LinearLayout>
@@ -195,7 +195,7 @@
                                             android:layout_height="54dp"
                                             android:paddingTop="10sp"
                                             android:text="Invited Talks"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="24sp"
                                             android:textStyle="bold" />
 
@@ -204,7 +204,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
                                             android:text="11:00 AM - 1:00 PM"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="18sp" />
                                     </LinearLayout>
                                 </LinearLayout>
@@ -248,7 +248,7 @@
                                             android:layout_height="54dp"
                                             android:paddingTop="10sp"
                                             android:text="Lunch"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="24sp"
                                             android:textStyle="bold" />
 
@@ -257,7 +257,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
                                             android:text="1:00 PM - 2:00 PM"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="18sp" />
                                     </LinearLayout>
                                 </LinearLayout>
@@ -302,7 +302,7 @@
                                             android:layout_height="54dp"
                                             android:paddingTop="10sp"
                                             android:text="Invited Talks"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="24sp"
                                             android:textStyle="bold" />
 
@@ -311,7 +311,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
                                             android:text="2:00 PM - 3:00 PM"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="18sp" />
                                     </LinearLayout>
                                 </LinearLayout>
@@ -357,7 +357,7 @@
                                             android:layout_height="54dp"
                                             android:paddingTop="10sp"
                                             android:text="Session 1"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="24sp"
                                             android:textStyle="bold" />
 
@@ -366,7 +366,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
                                             android:text="3:00 PM - 4:30 PM"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="18sp" />
                                     </LinearLayout>
                                 </LinearLayout>
@@ -412,7 +412,7 @@
                                             android:layout_height="54dp"
                                             android:paddingTop="10sp"
                                             android:text="Session 2"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="24sp"
                                             android:textStyle="bold" />
 
@@ -421,7 +421,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
                                             android:text="5:00 PM - 6:30 PM"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="18sp" />
                                     </LinearLayout>
                                 </LinearLayout>
@@ -447,17 +447,18 @@
 
                         <TextView
                             android:id="@+id/textView215"
-                            android:layout_width="220dp"
+                            android:layout_width="225dp"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
                             android:layout_weight="1"
                             android:padding="10dp"
                             android:text="23\nMar"
+                            android:textColor="#E0E0E0"
                             android:textColorLink="@color/colorAccent"
                             android:textSize="20sp" />
 
                         <LinearLayout
-                            android:layout_width="300dp"
+                            android:layout_width="290dp"
                             android:layout_height="wrap_content"
                             android:clickable="true"
                             android:orientation="vertical">
@@ -468,8 +469,6 @@
                                 android:layout_marginLeft="0dp"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginRight="10dp"
-                                android:cardCornerRadius="40dp"
-                                android:cardElevation="10dp"
                                 android:foreground="?android:selectableItemBackground"
                                 android:paddingTop="10dp"
                                 app:cardBackgroundColor="@color/colorPrimary">
@@ -504,7 +503,7 @@
                                             android:layout_height="54dp"
                                             android:paddingTop="10sp"
                                             android:text="Session 3"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="24sp"
                                             android:textStyle="bold" />
 
@@ -513,7 +512,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
                                             android:text="10:00 AM - 11:00 AM"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="18sp" />
                                     </LinearLayout>
                                 </LinearLayout>
@@ -558,7 +557,7 @@
                                             android:layout_height="54dp"
                                             android:paddingTop="10sp"
                                             android:text="Invited Talks"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="24sp"
                                             android:textStyle="bold" />
 
@@ -567,7 +566,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
                                             android:text="11:00 AM - 1:00 PM"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="18sp" />
                                     </LinearLayout>
                                 </LinearLayout>
@@ -612,7 +611,7 @@
                                             android:layout_height="54dp"
                                             android:paddingTop="10sp"
                                             android:text="Lunch"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="24sp"
                                             android:textStyle="bold" />
 
@@ -621,7 +620,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
                                             android:text="1:00 PM - 2:00 PM"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="18sp" />
                                     </LinearLayout>
                                 </LinearLayout>
@@ -666,7 +665,7 @@
                                             android:layout_height="54dp"
                                             android:paddingTop="10sp"
                                             android:text="Invited Talks"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="24sp"
                                             android:textStyle="bold" />
 
@@ -675,7 +674,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
                                             android:text="2:00 PM - 3:00 PM"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="18sp" />
                                     </LinearLayout>
                                 </LinearLayout>
@@ -720,7 +719,7 @@
                                             android:layout_height="54dp"
                                             android:paddingTop="10sp"
                                             android:text="Codeplay"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="24sp"
                                             android:textStyle="bold" />
 
@@ -729,7 +728,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
                                             android:text="3:00 PM - 4:30 PM"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="18sp" />
                                     </LinearLayout>
                                 </LinearLayout>
@@ -775,7 +774,7 @@
                                             android:layout_height="54dp"
                                             android:paddingTop="10sp"
                                             android:text="Session 5"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="24sp"
                                             android:textStyle="bold" />
 
@@ -784,7 +783,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
                                             android:text="5:00 PM - 6:30 PM"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="18sp" />
                                     </LinearLayout>
                                 </LinearLayout>
@@ -831,7 +830,7 @@
                                             android:layout_height="54dp"
                                             android:paddingTop="10sp"
                                             android:text="Dinner"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="24sp"
                                             android:textStyle="bold" />
 
@@ -840,7 +839,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
                                             android:text="6:30 PM - 8:00 PM"
-                                            android:textColor="@color/cardview_light_background"
+                                            android:textColor="#E0E0E0"
                                             android:textSize="18sp" />
                                     </LinearLayout>
                                 </LinearLayout>
