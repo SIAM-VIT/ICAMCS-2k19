@@ -446,7 +446,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textView15"
+                            android:id="@+id/textView215"
                             android:layout_width="220dp"
                             android:layout_height="match_parent"
                             android:layout_margin="8dp"
@@ -486,11 +486,11 @@
                                         android:orientation="vertical">
 
                                         <ImageView
-                                            android:id="@+id/imageView"
+                                            android:id="@+id/imageView21"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:padding="15dp"
-                                            app:srcCompat="@drawable/icon_registration" />
+                                            app:srcCompat="@drawable/icon_session" />
                                     </LinearLayout>
 
                                     <LinearLayout
@@ -540,10 +540,11 @@
                                         android:orientation="vertical">
 
                                         <ImageView
-                                            android:id="@+id/imageView2"
+                                            android:id="@+id/imageView22"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            app:srcCompat="@drawable/icon_ceremony" />
+                                            android:layout_margin="10dp"
+                                            app:srcCompat="@drawable/icon_speaker" />
                                     </LinearLayout>
 
                                     <LinearLayout
@@ -556,7 +557,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="54dp"
                                             android:paddingTop="10sp"
-                                            android:text="Invited Taks"
+                                            android:text="Invited Talks"
                                             android:textColor="@color/cardview_light_background"
                                             android:textSize="24sp"
                                             android:textStyle="bold" />
@@ -593,11 +594,11 @@
                                         android:orientation="vertical">
 
                                         <ImageView
-                                            android:id="@+id/imageView4"
+                                            android:id="@+id/imageView23"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:padding="10dp"
-                                            app:srcCompat="@drawable/icon_speaker" />
+                                            app:srcCompat="@drawable/icon_lunch" />
                                     </LinearLayout>
 
                                     <LinearLayout
@@ -647,10 +648,11 @@
                                         android:orientation="vertical">
 
                                         <ImageView
-                                            android:id="@+id/imageView3"
+                                            android:id="@+id/imageView24"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            app:srcCompat="@drawable/icon_lunch" />
+                                            android:layout_margin="10dp"
+                                            app:srcCompat="@drawable/icon_speaker" />
                                     </LinearLayout>
 
                                     <LinearLayout
@@ -700,11 +702,11 @@
                                         android:orientation="vertical">
 
                                         <ImageView
-                                            android:id="@+id/imageView5"
+                                            android:id="@+id/imageView25"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:padding="10dp"
-                                            app:srcCompat="@drawable/icon_speaker" />
+                                            app:srcCompat="@drawable/icon_codeplay" />
                                     </LinearLayout>
 
                                     <LinearLayout
@@ -755,7 +757,7 @@
                                         android:orientation="vertical">
 
                                         <ImageView
-                                            android:id="@+id/imageView6"
+                                            android:id="@+id/imageView26"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:padding="10dp"
@@ -809,12 +811,13 @@
                                         android:orientation="vertical">
 
                                         <ImageView
-                                            android:id="@+id/imageView7"
+                                            android:id="@+id/imageView27"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
+                                            android:layout_margin="10dp"
                                             android:layout_weight="1"
                                             android:padding="10dp"
-                                            app:srcCompat="@drawable/icon_session" />
+                                            app:srcCompat="@drawable/icon_lunch" />
                                     </LinearLayout>
 
                                     <LinearLayout
