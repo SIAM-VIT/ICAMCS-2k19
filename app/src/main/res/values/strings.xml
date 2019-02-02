@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">ICAMS-2k19</string>
+    <string name="app_name">ICAMCS-2k19</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_agenda">Agenda</string>
+    <string name="title_sponsors">Sponsors</string>
+    <string name="title_home">ICAMS-2k19</string>
+    <string name="title_questions">Questions</string>
+    <string name="title_about">About</string>
 </resources>
